@@ -40,22 +40,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" style="color:#F87652 !important" href="#">Home</a>
+                <a class="nav-link" style="color:#F87652 !important" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#edu">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@
     </div>
 
     <!-- HERO SECTION -->
-    <div class="hero_section">
+    <div class="hero_section" id="home">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
@@ -87,7 +87,7 @@
     </div>
 
     <!--ABOUT US SECTION-->
-    <div class="about_section">
+    <div class="about_section" id="about">
       <div class="container">
         <div class="row m-0">
           <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
@@ -129,7 +129,7 @@
     </div>
   
     <!--SKILLS SECTION-->
-    <div class="skills_section">
+    <div class="skills_section" id="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 skills_section_left_section">
@@ -179,7 +179,7 @@
     </div>
     
     <!--EDUCATION SECTION-->
-    <div class="portfolio_section">
+    <div class="portfolio_section" id="edu">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -248,7 +248,7 @@
     </div>
 
     <!--PROJECTS SECTION-->
-    <div class="blogs_section">
+    <div class="blogs_section" id="project">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -287,7 +287,7 @@
     </div>
 
     <!--CONTACT SECTION-->
-    <div class="contact_section">
+    <div class="contact_section" id="contact">
       <div class="container">
         <div class="row m-0">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -295,21 +295,21 @@
               <h3 class="heading">Contact Me<span style="color: #F87652;">.</span></h3>
               <hr>
               <p class="txt">The information provided above are all correct and if you like to talk more about me or my projects. Feel free to Contact me on below Email address or by filling the form.</p>
-              <form>
+              <form name="Contact form" method="POST" data-netlify="true">
                 <div class="form-group">
-                  <input class="form-control" placeholder="Your Name" type="text" />
+                  <input class="form-control" placeholder="Your Name" name="name" type="text" required />
                 </div>
                 <div class="form-group">
-                  <input class="form-control" placeholder="Your E-mail" type="email" />
+                  <input class="form-control" placeholder="Your E-mail" name="email" type="email" required />
                 </div>
                 <div class="form-group">
-                  <input class="form-control" placeholder="Subject" type="text" />
+                  <input class="form-control" placeholder="Subject" name="subject" type="text" required />
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" placeholder="Type Your Message..."></textarea>
+                  <textarea class="form-control" name="message" placeholder="Type Your Message..." required></textarea>
                 </div>
                 <div class="form-group">
-                  <button class="btn btn-light animate_animated" type="button">Submit</button>
+                  <button class="btn btn-light animate_animated" type="submit">Submit</button>
                 </div>
               </form>
             </div>
