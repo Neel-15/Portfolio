@@ -248,6 +248,10 @@ canvas.particles-js-canvas-el{
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
 }
+.about_section .about_me_right_section a{
+    color: white;
+    text-decoration: none;
+}
 .about_section .about_me_right_section button:hover{
     animation: swing 0.5s;
 }
