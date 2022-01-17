@@ -86,7 +86,7 @@ canvas.particles-js-canvas-el{
     top: 10px;
     width: 90px;
     height: 2px;
-    background-color: white;
+    background-color: #F87652;
     margin-left: 6px;
 }
 .hero_section .row h1{
@@ -285,7 +285,7 @@ canvas.particles-js-canvas-el{
 }
 .skills_section p{
     color: var(--secondary-color);
-    font-size: 15px;
+    font-size: 18px;
 }
 .skills_section .skills_section_left_section button{
     border-radius: 7px;
@@ -380,6 +380,9 @@ canvas.particles-js-canvas-el{
 .blogs_section .card-body a{
     color: var(--pink-color);
     font-size: 13px;
+}
+.blogs_section .container a{
+    text-decoration: none;
 }
 
 
